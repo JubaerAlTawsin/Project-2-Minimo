@@ -1,0 +1,64 @@
+/* font links*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* common start*/
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* common end */
+
+/* header start */
+header{
+    margin: 30px 0;
+    border-bottom: 1px solid #000000
+}
+.container{
+    width: 90%;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 10%;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-top: 12px;
+}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 65%;
+   /* border: 1px solid red;*/
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0 55px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li:hover a{
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-weight: 500;
+}
+
+/* header end */
